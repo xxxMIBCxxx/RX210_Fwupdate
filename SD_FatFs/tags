@@ -1,0 +1,653 @@
+!_TAG_FILE_ENCODING	cp932	//
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_JP_AUTHOR	HIGASHI Hirohito	/Twitter: @h_east/
+!_TAG_PROGRAM_JP_URL	http://hp.vector.co.jp/authors/VA025040/	//
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8J2	//
+ABORT	ff.c	209;"	d	file:
+ACMD13	SD_Driver.c	50;"	d	file:
+ACMD23	SD_Driver.c	55;"	d	file:
+ACMD41	SD_Driver.c	45;"	d	file:
+AM_ARC	ff.h	398;"	d
+AM_DIR	ff.h	397;"	d
+AM_HID	ff.h	395;"	d
+AM_LFN	ff.c	63;"	d	file:
+AM_MASK	ff.c	64;"	d	file:
+AM_RDO	ff.h	394;"	d
+AM_SYS	ff.h	396;"	d
+AM_VOL	ff.c	62;"	d	file:
+ATA_GET_MODEL	diskio.h	80;"	d
+ATA_GET_REV	diskio.h	79;"	d
+ATA_GET_SN	diskio.h	81;"	d
+BPB_BkBootSec32	ff.c	119;"	d	file:
+BPB_BytsPerSec	ff.c	93;"	d	file:
+BPB_BytsPerSecEx	ff.c	139;"	d	file:
+BPB_DataOfsEx	ff.c	133;"	d	file:
+BPB_DrvNumEx	ff.c	142;"	d	file:
+BPB_ExtFlags32	ff.c	115;"	d	file:
+BPB_FATSz16	ff.c	100;"	d	file:
+BPB_FATSz32	ff.c	114;"	d	file:
+BPB_FSInfo32	ff.c	118;"	d	file:
+BPB_FSVer32	ff.c	116;"	d	file:
+BPB_FSVerEx	ff.c	137;"	d	file:
+BPB_FatOfsEx	ff.c	131;"	d	file:
+BPB_FatSzEx	ff.c	132;"	d	file:
+BPB_HiddSec	ff.c	103;"	d	file:
+BPB_Media	ff.c	99;"	d	file:
+BPB_NumClusEx	ff.c	134;"	d	file:
+BPB_NumFATs	ff.c	96;"	d	file:
+BPB_NumFATsEx	ff.c	141;"	d	file:
+BPB_NumHeads	ff.c	102;"	d	file:
+BPB_PercInUseEx	ff.c	143;"	d	file:
+BPB_RootClus32	ff.c	117;"	d	file:
+BPB_RootClusEx	ff.c	135;"	d	file:
+BPB_RootEntCnt	ff.c	97;"	d	file:
+BPB_RsvdEx	ff.c	144;"	d	file:
+BPB_RsvdSecCnt	ff.c	95;"	d	file:
+BPB_SecPerClus	ff.c	94;"	d	file:
+BPB_SecPerClusEx	ff.c	140;"	d	file:
+BPB_SecPerTrk	ff.c	101;"	d	file:
+BPB_TotSec16	ff.c	98;"	d	file:
+BPB_TotSec32	ff.c	104;"	d	file:
+BPB_TotSecEx	ff.c	130;"	d	file:
+BPB_VolFlagEx	ff.c	138;"	d	file:
+BPB_VolIDEx	ff.c	136;"	d	file:
+BPB_VolOfsEx	ff.c	129;"	d	file:
+BPB_ZeroedEx	ff.c	128;"	d	file:
+BS_55AA	ff.c	112;"	d	file:
+BS_BootCode	ff.c	111;"	d	file:
+BS_BootCode32	ff.c	126;"	d	file:
+BS_BootCodeEx	ff.c	145;"	d	file:
+BS_BootSig	ff.c	107;"	d	file:
+BS_BootSig32	ff.c	122;"	d	file:
+BS_DrvNum	ff.c	105;"	d	file:
+BS_DrvNum32	ff.c	120;"	d	file:
+BS_FilSysType	ff.c	110;"	d	file:
+BS_FilSysType32	ff.c	125;"	d	file:
+BS_JmpBoot	ff.c	91;"	d	file:
+BS_NTres	ff.c	106;"	d	file:
+BS_NTres32	ff.c	121;"	d	file:
+BS_OEMName	ff.c	92;"	d	file:
+BS_VolID	ff.c	108;"	d	file:
+BS_VolID32	ff.c	123;"	d	file:
+BS_VolLab	ff.c	109;"	d	file:
+BS_VolLab32	ff.c	124;"	d	file:
+BYTE	ff.h	46;"	t
+BYTE	ff.h	54;"	t
+CMD0	SD_Driver.c	43;"	d	file:
+CMD1	SD_Driver.c	44;"	d	file:
+CMD10	SD_Driver.c	48;"	d	file:
+CMD12	SD_Driver.c	49;"	d	file:
+CMD16	SD_Driver.c	51;"	d	file:
+CMD17	SD_Driver.c	52;"	d	file:
+CMD18	SD_Driver.c	53;"	d	file:
+CMD23	SD_Driver.c	54;"	d	file:
+CMD24	SD_Driver.c	56;"	d	file:
+CMD25	SD_Driver.c	57;"	d	file:
+CMD32	SD_Driver.c	58;"	d	file:
+CMD33	SD_Driver.c	59;"	d	file:
+CMD38	SD_Driver.c	60;"	d	file:
+CMD55	SD_Driver.c	61;"	d	file:
+CMD58	SD_Driver.c	62;"	d	file:
+CMD8	SD_Driver.c	46;"	d	file:
+CMD9	SD_Driver.c	47;"	d	file:
+CODEPAGE	ff.c	530;"	d	file:
+CODEPAGE	ff.c	557;"	d	file:
+CODEPAGE	ff.c	561;"	d	file:
+CREATE_LINKMAP	ff.h	378;"	d
+CS_HIGH	SD_Driver.c	25;"	d	file:
+CS_LOW	SD_Driver.c	26;"	d	file:
+CTRL_EJECT	diskio.h	65;"	d
+CTRL_FORMAT	diskio.h	60;"	d
+CTRL_GET_SMART	diskio.h	66;"	d
+CTRL_LOCK	diskio.h	63;"	d
+CTRL_POWER_IDLE	diskio.h	61;"	d
+CTRL_POWER_OFF	diskio.h	62;"	d
+CTRL_SYNC	diskio.h	53;"	d
+CTRL_TRIM	diskio.h	57;"	d
+CTRL_UNLOCK	diskio.h	64;"	d
+CT_BLOCK	diskio.h	89;"	d
+CT_MMC	diskio.h	85;"	d
+CT_SD1	diskio.h	86;"	d
+CT_SD2	diskio.h	87;"	d
+CT_SDC	diskio.h	88;"	d
+CardType	SD_Driver.c	69;"	m	struct:_SD_INFO_TABLE	file:
+CodePage	ff.c	531;"	v	file:
+Ct437	ff.c	534;"	v	file:
+Ct720	ff.c	535;"	v	file:
+Ct737	ff.c	536;"	v	file:
+Ct771	ff.c	537;"	v	file:
+Ct775	ff.c	538;"	v	file:
+Ct850	ff.c	539;"	v	file:
+Ct852	ff.c	540;"	v	file:
+Ct855	ff.c	541;"	v	file:
+Ct857	ff.c	542;"	v	file:
+Ct860	ff.c	543;"	v	file:
+Ct861	ff.c	544;"	v	file:
+Ct862	ff.c	545;"	v	file:
+Ct863	ff.c	546;"	v	file:
+Ct864	ff.c	547;"	v	file:
+Ct865	ff.c	548;"	v	file:
+Ct866	ff.c	549;"	v	file:
+Ct869	ff.c	550;"	v	file:
+CurrVol	ff.c	442;"	v	file:
+DDEM	ff.c	185;"	d	file:
+DEF_NAMBUF	ff.c	464;"	d	file:
+DEF_NAMBUF	ff.c	487;"	d	file:
+DEF_NAMBUF	ff.c	494;"	d	file:
+DEF_NAMBUF	ff.c	498;"	d	file:
+DEF_NAMBUF	ff.c	506;"	d	file:
+DEF_NAMBUF	ff.c	510;"	d	file:
+DIR	ff.h	232;"	t	typeref:struct:__anon8
+DIR_Attr	ff.c	148;"	d	file:
+DIR_CrtTime	ff.c	151;"	d	file:
+DIR_CrtTime10	ff.c	150;"	d	file:
+DIR_FileSize	ff.c	156;"	d	file:
+DIR_FstClusHI	ff.c	153;"	d	file:
+DIR_FstClusLO	ff.c	155;"	d	file:
+DIR_LstAccDate	ff.c	152;"	d	file:
+DIR_ModTime	ff.c	154;"	d	file:
+DIR_NTres	ff.c	149;"	d	file:
+DIR_Name	ff.c	147;"	d	file:
+DIR_READ_FILE	ff.c	2331;"	d	file:
+DIR_READ_LABEL	ff.c	2332;"	d	file:
+DISK_USE_IOCTL	diskio.h	14;"	d
+DISK_USE_WRITE	diskio.h	13;"	d
+DRESULT	diskio.h	26;"	t	typeref:enum:__anon1
+DSTATUS	diskio.h	17;"	t
+DWORD	ff.h	49;"	t
+DWORD	ff.h	57;"	t
+DbcTbl	ff.c	532;"	v	file:
+DbcTbl	ff.c	562;"	v	file:
+Dc932	ff.c	551;"	v	file:
+Dc936	ff.c	552;"	v	file:
+Dc949	ff.c	553;"	v	file:
+Dc950	ff.c	554;"	v	file:
+DirBuf	ff.c	484;"	v	file:
+EOF	ff.h	328;"	d
+ET_BITMAP	ff.c	80;"	d	file:
+ET_FILEDIR	ff.c	83;"	d	file:
+ET_FILENAME	ff.c	85;"	d	file:
+ET_STREAM	ff.c	84;"	d	file:
+ET_UPCASE	ff.c	81;"	d	file:
+ET_VLABEL	ff.c	82;"	d	file:
+ExCvt	ff.c	532;"	v	file:
+ExCvt	ff.c	558;"	v	file:
+FATFS	ff.h	167;"	t	typeref:struct:__anon5
+FA_CREATE_ALWAYS	ff.h	373;"	d
+FA_CREATE_NEW	ff.h	372;"	d
+FA_DIRTY	ff.c	58;"	d	file:
+FA_MODIFIED	ff.c	57;"	d	file:
+FA_OPEN_ALWAYS	ff.h	374;"	d
+FA_OPEN_APPEND	ff.h	375;"	d
+FA_OPEN_EXISTING	ff.h	371;"	d
+FA_READ	ff.h	369;"	d
+FA_SEEKEND	ff.c	56;"	d	file:
+FA_WRITE	ff.h	370;"	d
+FCLK_FAST	SD_Driver.c	34;"	d	file:
+FFCONF_DEF	ffconf.h	5;"	d
+FFOBJID	ff.h	190;"	t	typeref:struct:__anon6
+FF_CODE_PAGE	ffconf.h	71;"	d
+FF_DEFINED	ff.h	23;"	d
+FF_DISKIO_DEFINED	diskio.h	7;"	d
+FF_FS_EXFAT	ffconf.h	233;"	d
+FF_FS_LOCK	ffconf.h	253;"	d
+FF_FS_MINIMIZE	ffconf.h	18;"	d
+FF_FS_NOFSINFO	ffconf.h	209;"	d
+FF_FS_NORTC	ffconf.h	239;"	d
+FF_FS_READONLY	ffconf.h	11;"	d
+FF_FS_REENTRANT	ffconf.h	265;"	d
+FF_FS_RPATH	ffconf.h	153;"	d
+FF_FS_TIMEOUT	ffconf.h	266;"	d
+FF_FS_TINY	ffconf.h	226;"	d
+FF_INTDEF	ff.h	39;"	d
+FF_INTDEF	ff.h	43;"	d
+FF_INTDEF	ff.h	52;"	d
+FF_LFN_BUF	ffconf.h	132;"	d
+FF_LFN_UNICODE	ffconf.h	120;"	d
+FF_MAX_LFN	ffconf.h	101;"	d
+FF_MAX_SS	ffconf.h	194;"	d
+FF_MIN_SS	ffconf.h	193;"	d
+FF_MULTI_PARTITION	ffconf.h	184;"	d
+FF_NORTC_MDAY	ffconf.h	241;"	d
+FF_NORTC_MON	ffconf.h	240;"	d
+FF_NORTC_YEAR	ffconf.h	242;"	d
+FF_SFN_BUF	ffconf.h	133;"	d
+FF_STRF_ENCODE	ffconf.h	140;"	d
+FF_STR_VOLUME_ID	ffconf.h	170;"	d
+FF_SYNC_t	ffconf.h	267;"	d
+FF_USE_CHMOD	ffconf.h	53;"	d
+FF_USE_EXPAND	ffconf.h	49;"	d
+FF_USE_FASTSEEK	ffconf.h	45;"	d
+FF_USE_FIND	ffconf.h	36;"	d
+FF_USE_FORWARD	ffconf.h	63;"	d
+FF_USE_LABEL	ffconf.h	58;"	d
+FF_USE_LFN	ffconf.h	100;"	d
+FF_USE_MKFS	ffconf.h	41;"	d
+FF_USE_STRFUNC	ffconf.h	28;"	d
+FF_USE_TRIM	ffconf.h	203;"	d
+FF_VOLUMES	ffconf.h	166;"	d
+FF_VOLUME_STRS	ffconf.h	171;"	d
+FIL	ff.h	213;"	t	typeref:struct:__anon7
+FILESEM	ff.c	265;"	t	typeref:struct:__anon2	file:
+FILINFO	ff.h	249;"	t	typeref:struct:__anon9
+FM_ANY	ff.h	384;"	d
+FM_EXFAT	ff.h	383;"	d
+FM_FAT	ff.h	381;"	d
+FM_FAT32	ff.h	382;"	d
+FM_SFD	ff.h	385;"	d
+FREE_NAMBUF	ff.c	466;"	d	file:
+FREE_NAMBUF	ff.c	489;"	d	file:
+FREE_NAMBUF	ff.c	496;"	d	file:
+FREE_NAMBUF	ff.c	500;"	d	file:
+FREE_NAMBUF	ff.c	508;"	d	file:
+FREE_NAMBUF	ff.c	512;"	d	file:
+FRESULT	ff.h	276;"	t	typeref:enum:__anon10
+FR_DENIED	ff.h	263;"	e	enum:__anon10
+FR_DISK_ERR	ff.h	257;"	e	enum:__anon10
+FR_EXIST	ff.h	264;"	e	enum:__anon10
+FR_INT_ERR	ff.h	258;"	e	enum:__anon10
+FR_INVALID_DRIVE	ff.h	267;"	e	enum:__anon10
+FR_INVALID_NAME	ff.h	262;"	e	enum:__anon10
+FR_INVALID_OBJECT	ff.h	265;"	e	enum:__anon10
+FR_INVALID_PARAMETER	ff.h	275;"	e	enum:__anon10
+FR_LOCKED	ff.h	272;"	e	enum:__anon10
+FR_MKFS_ABORTED	ff.h	270;"	e	enum:__anon10
+FR_NOT_ENABLED	ff.h	268;"	e	enum:__anon10
+FR_NOT_ENOUGH_CORE	ff.h	273;"	e	enum:__anon10
+FR_NOT_READY	ff.h	259;"	e	enum:__anon10
+FR_NO_FILE	ff.h	260;"	e	enum:__anon10
+FR_NO_FILESYSTEM	ff.h	269;"	e	enum:__anon10
+FR_NO_PATH	ff.h	261;"	e	enum:__anon10
+FR_OK	ff.h	256;"	e	enum:__anon10
+FR_TIMEOUT	ff.h	271;"	e	enum:__anon10
+FR_TOO_MANY_OPEN_FILES	ff.h	274;"	e	enum:__anon10
+FR_WRITE_PROTECTED	ff.h	266;"	e	enum:__anon10
+FSIZE_t	ff.h	114;"	t
+FSIZE_t	ff.h	116;"	t
+FSI_Free_Count	ff.c	191;"	d	file:
+FSI_LeadSig	ff.c	189;"	d	file:
+FSI_Nxt_Free	ff.c	192;"	d	file:
+FSI_StrucSig	ff.c	190;"	d	file:
+FS_EXFAT	ff.h	391;"	d
+FS_FAT12	ff.h	388;"	d
+FS_FAT16	ff.h	389;"	d
+FS_FAT32	ff.h	390;"	d
+F_PCLK	SD_Driver.c	30;"	d	file:
+FatFs	ff.c	438;"	v	file:
+Files	ff.c	446;"	v	file:
+Fsid	ff.c	439;"	v	file:
+GET_BLOCK_SIZE	diskio.h	56;"	d
+GET_FATTIME	ff.c	249;"	d	file:
+GET_FATTIME	ff.c	251;"	d	file:
+GET_SECTOR_COUNT	diskio.h	54;"	d
+GET_SECTOR_SIZE	diskio.h	55;"	d
+INIT_NAMBUF	ff.c	465;"	d	file:
+INIT_NAMBUF	ff.c	488;"	d	file:
+INIT_NAMBUF	ff.c	495;"	d	file:
+INIT_NAMBUF	ff.c	499;"	d	file:
+INIT_NAMBUF	ff.c	507;"	d	file:
+INIT_NAMBUF	ff.c	511;"	d	file:
+ISDIO_MRITE	diskio.h	76;"	d
+ISDIO_READ	diskio.h	74;"	d
+ISDIO_WRITE	diskio.h	75;"	d
+IsDigit	ff.c	49;"	d	file:
+IsLower	ff.c	48;"	d	file:
+IsSurrogate	ff.c	50;"	d	file:
+IsSurrogateH	ff.c	51;"	d	file:
+IsSurrogateL	ff.c	52;"	d	file:
+IsUpper	ff.c	47;"	d	file:
+LD2PD	ff.c	225;"	d	file:
+LD2PD	ff.c	228;"	d	file:
+LD2PT	ff.c	226;"	d	file:
+LD2PT	ff.c	229;"	d	file:
+LDDW	SD_Driver.c	18;"	d	file:
+LDDW	SD_Driver.c	20;"	d	file:
+LDIR_Attr	ff.c	158;"	d	file:
+LDIR_Chksum	ff.c	160;"	d	file:
+LDIR_FstClusLO	ff.c	161;"	d	file:
+LDIR_Ord	ff.c	157;"	d	file:
+LDIR_Type	ff.c	159;"	d	file:
+LEAVE_FF	ff.c	217;"	d	file:
+LEAVE_FF	ff.c	219;"	d	file:
+LEAVE_MKFS	ff.c	467;"	d	file:
+LEAVE_MKFS	ff.c	490;"	d	file:
+LEAVE_MKFS	ff.c	502;"	d	file:
+LEAVE_MKFS	ff.c	514;"	d	file:
+LLEF	ff.c	187;"	d	file:
+LfnBuf	ff.c	486;"	v	file:
+LfnOfs	ff.c	479;"	v	file:
+MAXDIRB	ff.c	480;"	d	file:
+MAX_DIR	ff.c	38;"	d	file:
+MAX_DIR_EX	ff.c	39;"	d	file:
+MAX_EXFAT	ff.c	43;"	d	file:
+MAX_FAT12	ff.c	40;"	d	file:
+MAX_FAT16	ff.c	41;"	d	file:
+MAX_FAT32	ff.c	42;"	d	file:
+MAX_MALLOC	ff.c	515;"	d	file:
+MBR_Table	ff.c	194;"	d	file:
+MERGE_2STR	ff.c	416;"	d	file:
+MKCVTBL	ff.c	417;"	d	file:
+MMC_GET_CID	diskio.h	71;"	d
+MMC_GET_CSD	diskio.h	70;"	d
+MMC_GET_OCR	diskio.h	72;"	d
+MMC_GET_SDSTAT	diskio.h	73;"	d
+MMC_GET_TYPE	diskio.h	69;"	d
+NSFLAG	ff.c	68;"	d	file:
+NS_BODY	ff.c	72;"	d	file:
+NS_DOT	ff.c	74;"	d	file:
+NS_EXT	ff.c	73;"	d	file:
+NS_LAST	ff.c	71;"	d	file:
+NS_LFN	ff.c	70;"	d	file:
+NS_LOSS	ff.c	69;"	d	file:
+NS_NOLFN	ff.c	75;"	d	file:
+NS_NONAME	ff.c	76;"	d	file:
+PARTITION	ff.h	67;"	t	typeref:struct:__anon4
+PTE_Boot	ff.c	196;"	d	file:
+PTE_EdCyl	ff.c	203;"	d	file:
+PTE_EdHead	ff.c	201;"	d	file:
+PTE_EdSec	ff.c	202;"	d	file:
+PTE_SizLba	ff.c	205;"	d	file:
+PTE_StCyl	ff.c	199;"	d	file:
+PTE_StHead	ff.c	197;"	d	file:
+PTE_StLba	ff.c	204;"	d	file:
+PTE_StSec	ff.c	198;"	d	file:
+PTE_System	ff.c	200;"	d	file:
+QWORD	ff.h	41;"	t
+QWORD	ff.h	50;"	t
+RDDEM	ff.c	186;"	d	file:
+RES_ERROR	diskio.h	22;"	e	enum:__anon1
+RES_NOTRDY	diskio.h	24;"	e	enum:__anon1
+RES_OK	diskio.h	21;"	e	enum:__anon1
+RES_PARERR	diskio.h	25;"	e	enum:__anon1
+RES_WRPRT	diskio.h	23;"	e	enum:__anon1
+RSPI_IntervalTimer	SD_Driver.c	113;"	f
+SCLK_FAST	SD_Driver.c	31;"	d	file:
+SCLK_SLOW	SD_Driver.c	33;"	d	file:
+SD_INFO_TABLE	SD_Driver.c	75;"	t	typeref:struct:_SD_INFO_TABLE	file:
+SPRI	SD_Driver.c	28;"	d	file:
+SS	ff.c	238;"	d	file:
+SS	ff.c	240;"	d	file:
+STA_NODISK	diskio.h	46;"	d
+STA_NOINIT	diskio.h	45;"	d
+STA_PROTECT	diskio.h	47;"	d
+SZDIRE	ff.c	184;"	d	file:
+SZ_PTE	ff.c	195;"	d	file:
+SdCS_GPIO_PIN	SD_Driver.c	24;"	d	file:
+Stat	SD_Driver.c	70;"	m	struct:_SD_INFO_TABLE	file:
+TBL_CT437	ff.c	270;"	d	file:
+TBL_CT720	ff.c	278;"	d	file:
+TBL_CT737	ff.c	286;"	d	file:
+TBL_CT771	ff.c	294;"	d	file:
+TBL_CT775	ff.c	302;"	d	file:
+TBL_CT850	ff.c	310;"	d	file:
+TBL_CT852	ff.c	318;"	d	file:
+TBL_CT855	ff.c	326;"	d	file:
+TBL_CT857	ff.c	334;"	d	file:
+TBL_CT860	ff.c	342;"	d	file:
+TBL_CT861	ff.c	350;"	d	file:
+TBL_CT862	ff.c	358;"	d	file:
+TBL_CT863	ff.c	366;"	d	file:
+TBL_CT864	ff.c	374;"	d	file:
+TBL_CT865	ff.c	382;"	d	file:
+TBL_CT866	ff.c	390;"	d	file:
+TBL_CT869	ff.c	398;"	d	file:
+TBL_DC932	ff.c	409;"	d	file:
+TBL_DC936	ff.c	410;"	d	file:
+TBL_DC949	ff.c	411;"	d	file:
+TBL_DC950	ff.c	412;"	d	file:
+TCHAR	ff.h	85;"	t
+TCHAR	ff.h	89;"	t
+TCHAR	ff.h	93;"	t
+TCHAR	ff.h	99;"	t
+Timer1	SD_Driver.c	72;"	m	struct:_SD_INFO_TABLE	file:
+Timer2	SD_Driver.c	73;"	m	struct:_SD_INFO_TABLE	file:
+UINT	ff.h	45;"	t
+UINT	ff.h	53;"	t
+VolumeStr	ff.c	451;"	v	file:
+WCHAR	ff.h	48;"	t
+WCHAR	ff.h	56;"	t
+WORD	ff.h	47;"	t
+WORD	ff.h	55;"	t
+XDIR_AccTZ	ff.c	176;"	d	file:
+XDIR_AccTime	ff.c	171;"	d	file:
+XDIR_Attr	ff.c	168;"	d	file:
+XDIR_CaseSum	ff.c	165;"	d	file:
+XDIR_CrtTZ	ff.c	174;"	d	file:
+XDIR_CrtTime	ff.c	169;"	d	file:
+XDIR_CrtTime10	ff.c	172;"	d	file:
+XDIR_FileSize	ff.c	182;"	d	file:
+XDIR_FstClus	ff.c	181;"	d	file:
+XDIR_GenFlags	ff.c	177;"	d	file:
+XDIR_Label	ff.c	164;"	d	file:
+XDIR_ModTZ	ff.c	175;"	d	file:
+XDIR_ModTime	ff.c	170;"	d	file:
+XDIR_ModTime10	ff.c	173;"	d	file:
+XDIR_NameHash	ff.c	179;"	d	file:
+XDIR_NumLabel	ff.c	163;"	d	file:
+XDIR_NumName	ff.c	178;"	d	file:
+XDIR_NumSec	ff.c	166;"	d	file:
+XDIR_SetSum	ff.c	167;"	d	file:
+XDIR_Type	ff.c	162;"	d	file:
+XDIR_ValidFileSize	ff.c	180;"	d	file:
+_INC_TCHAR	ff.h	82;"	d
+_SD_INFO_TABLE	SD_Driver.c	67;"	s	file:
+_T	ff.h	100;"	d
+_T	ff.h	86;"	d
+_T	ff.h	90;"	d
+_T	ff.h	94;"	d
+_TEXT	ff.h	101;"	d
+_TEXT	ff.h	87;"	d
+_TEXT	ff.h	91;"	d
+_TEXT	ff.h	95;"	d
+altname	ff.h	244;"	m	struct:__anon9
+attr	ff.h	176;"	m	struct:__anon6
+bitbase	ff.h	163;"	m	struct:__anon5
+blk_ofs	ff.h	227;"	m	struct:__anon8
+bs	ff.c	6211;"	m	struct:__anon3	file:
+buf	ff.c	6214;"	m	struct:__anon3	file:
+buf	ff.h	211;"	m	struct:__anon7
+c_ofs	ff.h	185;"	m	struct:__anon6
+c_scl	ff.h	183;"	m	struct:__anon6
+c_size	ff.h	184;"	m	struct:__anon6
+cdc_ofs	ff.h	153;"	m	struct:__anon5
+cdc_scl	ff.h	151;"	m	struct:__anon5
+cdc_size	ff.h	152;"	m	struct:__anon5
+cdir	ff.h	149;"	m	struct:__anon5
+change_bitmap	ff.c	1331;"	f	file:
+check_fs	ff.c	3185;"	f	file:
+chk_chr	ff.c	693;"	f	file:
+chk_lock	ff.c	934;"	f	file:
+clear_lock	ff.c	1023;"	f	file:
+clmt_clust	ff.c	1614;"	f	file:
+clst2sect	ff.c	1132;"	f	file:
+cltbl	ff.h	208;"	m	struct:__anon7
+clu	ff.c	262;"	m	struct:__anon2	file:
+clust	ff.h	201;"	m	struct:__anon7
+clust	ff.h	222;"	m	struct:__anon8
+cmp_lfn	ff.c	1871;"	f	file:
+create_chain	ff.c	1511;"	f	file:
+create_name	ff.c	2827;"	f	file:
+create_xdir	ff.c	2288;"	f	file:
+csize	ff.h	131;"	m	struct:__anon5
+ct	ff.c	6212;"	m	struct:__anon3	file:
+ctr	ff.c	264;"	m	struct:__anon2	file:
+database	ff.h	161;"	m	struct:__anon5
+dbc_1st	ff.c	701;"	f	file:
+dbc_2nd	ff.c	721;"	f	file:
+dec_lock	ff.c	1001;"	f	file:
+dir	ff.h	224;"	m	struct:__anon8
+dir_alloc	ff.c	1792;"	f	file:
+dir_clear	ff.c	1644;"	f	file:
+dir_find	ff.c	2412;"	f	file:
+dir_next	ff.c	1731;"	f	file:
+dir_ptr	ff.h	205;"	m	struct:__anon7
+dir_read	ff.c	2334;"	f	file:
+dir_register	ff.c	2493;"	f	file:
+dir_remove	ff.c	2599;"	f	file:
+dir_sdi	ff.c	1683;"	f	file:
+dir_sect	ff.h	204;"	m	struct:__anon7
+dirbase	ff.h	160;"	m	struct:__anon5
+dirbuf	ff.h	139;"	m	struct:__anon5
+disk_initialize	SD_Driver.c	153;"	f
+disk_ioctl	SD_Driver.c	441;"	f
+disk_read	SD_Driver.c	276;"	f
+disk_status	SD_Driver.c	257;"	f
+disk_write	SD_Driver.c	351;"	f
+dptr	ff.h	221;"	m	struct:__anon8
+enq_lock	ff.c	961;"	f	file:
+err	ff.h	199;"	m	struct:__anon7
+f_chdir	ff.c	4090;"	f
+f_chdrive	ff.c	4073;"	f
+f_chmod	ff.c	5059;"	f
+f_close	ff.c	4037;"	f
+f_closedir	ff.c	4479;"	f
+f_eof	ff.h	318;"	d
+f_error	ff.h	319;"	d
+f_expand	ff.c	5368;"	f
+f_fdisk	ff.c	5994;"	f
+f_findfirst	ff.c	4570;"	f
+f_findnext	ff.c	4545;"	f
+f_forward	ff.c	5458;"	f
+f_getcwd	ff.c	4152;"	f
+f_getfree	ff.c	4632;"	f
+f_getlabel	ff.c	5153;"	f
+f_gets	ff.c	6077;"	f
+f_lseek	ff.c	4252;"	f
+f_mkdir	ff.c	4865;"	f
+f_mkfs	ff.c	5529;"	f
+f_mount	ff.c	3497;"	f
+f_open	ff.c	3545;"	f
+f_opendir	ff.c	4413;"	f
+f_printf	ff.c	6413;"	f
+f_putc	ff.c	6373;"	f
+f_puts	ff.c	6393;"	f
+f_read	ff.c	3735;"	f
+f_readdir	ff.c	4509;"	f
+f_rename	ff.c	4949;"	f
+f_rewind	ff.h	322;"	d
+f_rewinddir	ff.h	323;"	d
+f_rmdir	ff.h	324;"	d
+f_setcp	ff.c	6531;"	f
+f_setlabel	ff.c	5248;"	f
+f_size	ff.h	321;"	d
+f_stat	ff.c	4597;"	f
+f_sync	ff.c	3956;"	f
+f_tell	ff.h	320;"	d
+f_truncate	ff.c	4721;"	f
+f_unlink	ff.c	4771;"	f
+f_unmount	ff.h	325;"	d
+f_utime	ff.c	5106;"	f
+f_write	ff.c	3835;"	f
+fatbase	ff.h	159;"	m	struct:__anon5
+fattrib	ff.h	242;"	m	struct:__anon9
+fdate	ff.h	240;"	m	struct:__anon9
+fill_first_frag	ff.c	1367;"	f	file:
+fill_last_frag	ff.c	1390;"	f	file:
+find_bitmap	ff.c	1291;"	f	file:
+find_volume	ff.c	3212;"	f	file:
+flag	ff.h	198;"	m	struct:__anon7
+fn	ff.h	225;"	m	struct:__anon8
+fname	ff.h	245;"	m	struct:__anon9
+fname	ff.h	247;"	m	struct:__anon9
+follow_path	ff.c	3024;"	f	file:
+fp	ff.c	6206;"	m	struct:__anon3	file:
+fptr	ff.h	200;"	m	struct:__anon7
+free_clst	ff.h	146;"	m	struct:__anon5
+fs	ff.c	261;"	m	struct:__anon2	file:
+fs	ff.h	174;"	m	struct:__anon6
+fs_type	ff.h	124;"	m	struct:__anon5
+fsi_flag	ff.h	128;"	m	struct:__anon5
+fsize	ff.h	157;"	m	struct:__anon5
+fsize	ff.h	239;"	m	struct:__anon9
+ftime	ff.h	241;"	m	struct:__anon9
+g_tSdInfo	SD_Driver.c	82;"	v	file:
+gen_numname	ff.c	1982;"	f	file:
+get_achar	ff.c	2749;"	f	file:
+get_fat	ff.c	1149;"	f	file:
+get_fileinfo	ff.c	2645;"	f	file:
+get_ldnumber	ff.c	3111;"	f	file:
+get_xfileinfo	ff.c	2117;"	f	file:
+hs	ff.c	6209;"	m	struct:__anon3	file:
+id	ff.h	129;"	m	struct:__anon5
+id	ff.h	175;"	m	struct:__anon6
+idx	ff.c	6207;"	m	struct:__anon3	file:
+inc_lock	ff.c	970;"	f	file:
+init_alloc_info	ff.c	2209;"	f	file:
+last_clst	ff.h	145;"	m	struct:__anon5
+ld_clust	ff.c	1834;"	f	file:
+ld_dword	ff.c	589;"	f	file:
+ld_qword	ff.c	601;"	f	file:
+ld_word	ff.c	580;"	f	file:
+lfnbuf	ff.h	136;"	m	struct:__anon5
+load_obj_xdir	ff.c	2227;"	f	file:
+load_xdir	ff.c	2158;"	f	file:
+lock_fs	ff.c	907;"	f	file:
+lockid	ff.h	188;"	m	struct:__anon6
+mem_cmp	ff.c	679;"	f	file:
+mem_cpy	ff.c	654;"	f	file:
+mem_set	ff.c	668;"	f	file:
+move_window	ff.c	1064;"	f	file:
+n_cont	ff.h	181;"	m	struct:__anon6
+n_fatent	ff.h	156;"	m	struct:__anon5
+n_fats	ff.h	126;"	m	struct:__anon5
+n_frag	ff.h	182;"	m	struct:__anon6
+n_rootdir	ff.h	130;"	m	struct:__anon5
+nchr	ff.c	6207;"	m	struct:__anon3	file:
+obj	ff.h	197;"	m	struct:__anon7
+obj	ff.h	220;"	m	struct:__anon8
+objsize	ff.h	179;"	m	struct:__anon6
+ofs	ff.c	263;"	m	struct:__anon2	file:
+pat	ff.h	230;"	m	struct:__anon8
+pattern_matching	ff.c	2780;"	f	file:
+pd	ff.h	65;"	m	struct:__anon4
+pdrv	ff.h	125;"	m	struct:__anon5
+pick_lfn	ff.c	1907;"	f	file:
+pt	ff.h	66;"	m	struct:__anon4
+put_fat	ff.c	1226;"	f	file:
+put_lfn	ff.c	1945;"	f	file:
+put_utf	ff.c	818;"	f	file:
+putbuff	ff.c	6215;"	t	typeref:struct:__anon3	file:
+putc_bfd	ff.c	6218;"	f	file:
+putc_flush	ff.c	6349;"	f	file:
+putc_init	ff.c	6362;"	f	file:
+rcvr_datablock	SD_Driver.c	667;"	f	file:
+rcvr_spi_multi	SD_Driver.c	850;"	f	file:
+remove_chain	ff.c	1416;"	f	file:
+rspi_enable	SD_Driver.c	904;"	f	file:
+sclust	ff.h	178;"	m	struct:__anon6
+sd_deselect	SD_Driver.c	762;"	f	file:
+sd_select	SD_Driver.c	773;"	f	file:
+sd_spimode	SD_Driver.c	883;"	f	file:
+sect	ff.h	202;"	m	struct:__anon7
+sect	ff.h	223;"	m	struct:__anon8
+send_cmd	SD_Driver.c	604;"	f	file:
+sobj	ff.h	142;"	m	struct:__anon5
+ssize	ff.h	133;"	m	struct:__anon5
+st_clust	ff.c	1851;"	f	file:
+st_dword	ff.c	624;"	f	file:
+st_qword	ff.c	633;"	f	file:
+st_word	ff.c	618;"	f	file:
+stat	ff.h	177;"	m	struct:__anon6
+store_xdir	ff.c	2256;"	f	file:
+sum_sfn	ff.c	2040;"	f	file:
+sync_fs	ff.c	1095;"	f	file:
+sync_window	ff.c	1042;"	f	file:
+tchar2uni	ff.c	745;"	f	file:
+unlock_fs	ff.c	915;"	f	file:
+validate	ff.c	3453;"	f	file:
+volbase	ff.h	158;"	m	struct:__anon5
+wait_ready	SD_Driver.c	739;"	f	file:
+wflag	ff.h	127;"	m	struct:__anon5
+wi	ff.c	6212;"	m	struct:__anon3	file:
+win	ff.h	166;"	m	struct:__anon5
+winsect	ff.h	165;"	m	struct:__anon5
+xchg_spi	SD_Driver.c	794;"	f	file:
+xdir_sum	ff.c	2062;"	f	file:
+xmit_datablock	SD_Driver.c	701;"	f	file:
+xmit_spi_multi	SD_Driver.c	815;"	f	file:
+xname_sum	ff.c	2083;"	f	file:
+xsum32	ff.c	2101;"	f	file:

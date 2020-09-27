@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MicomToolCommonProjectFile Version="1.00">
+  <CreatorType Name="CubeSuite+" Version="V8.02.00  [07 Jun 2019]" />
+  <Placeholders>
+    <PlaceholderPrefix>%</PlaceholderPrefix>
+    <PlaceholderPostfix>%</PlaceholderPostfix>
+  </Placeholders>
+  <Project Name="RX210_Fwupdate" Type="Application">
+    <Files>
+      <Path>dbsct.c</Path>
+      <Path>intprg.c</Path>
+      <Path>resetprg.c</Path>
+      <Path>RX210_Fwupdate.c</Path>
+      <Path>sbrk.c</Path>
+      <Path>vecttbl.c</Path>
+      <Path>iodefine.h</Path>
+      <Path>sbrk.h</Path>
+      <Path>stacksct.h</Path>
+      <Path>typedefine.h</Path>
+      <Path>vect.h</Path>
+      <Category Name="SD_FatFs">
+        <Path>SD_FatFs\diskio.h</Path>
+        <Path>SD_FatFs\ff.c</Path>
+        <Path>SD_FatFs\ff.h</Path>
+        <Path>SD_FatFs\ffconf.h</Path>
+        <Path>SD_FatFs\SD_Driver.c</Path>
+      </Category>
+      <Path>mcu_info.h</Path>
+      <Path>r_bsp_config.h</Path>
+    </Files>
+    <DebugOptions>
+      <ConnectSettings>
+        <MainClock>20000000</MainClock>
+      </ConnectSettings>
+      <DebugToolSettings />
+    </DebugOptions>
+    <Device Series="RX">R5F52108AxFP</Device>
+    <BuildOptions Name="CC-RX" Version="V3.01.00">
+      <BuildMode Name="DefaultBuild" Active="True">
+        <GeneralOptions>
+          <SimultaneouslyBuild>true</SimultaneouslyBuild>
+        </GeneralOptions>
+        <CompileOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-lang=c</Option>
+          <Option>-include=.</Option>
+          <Option>-include=SD_FatFs</Option>
+          <Option>-output=obj</Option>
+          <Option>-debug</Option>
+          <Option>-optimize=0</Option>
+          <Option>-nologo</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-output=%BuildModeName%\%FileLeaf%.obj</Option>
+          <Option>-nologo</Option>
+          <Option>-debug</Option>
+        </AssembleOptions>
+        <LinkOptions>
+          <Option>-output=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-list=%BuildModeName%\%ProjectName%.map</Option>
+          <Option>-show=symbol,total_size,vector,RELOCATION_ATTRIBUTE</Option>
+          <Option>-nooptimize</Option>
+          <Option>-start=B_1,R_1,B_2,R_2,B,R,SU,SI/04,PResetPRG/0FFF80000,C_1,C_2,C,C$DSEC,C$BSEC,C$INIT,C$VTBL,C$VECT,D_1,D_2,D,P,PIntPRG,W_1,W_2,W,L/0FFF80100,FIXEDVECT/0FFFFFFD0</Option>
+          <Option>-rom=D=R,D_1=R_1,D_2=R_2</Option>
+          <Option>-nologo</Option>
+          <Option>-end</Option>
+          <Option>-input=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.mot</Option>
+          <Option>-form=stype</Option>
+          <Option>-exit</Option>
+          <PreLinker>Auto</PreLinker>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <Option>-isa=rxv1</Option>
+          <Option>-nofpu</Option>
+          <Option>-head=runtime,stdio,stdlib,string,new</Option>
+          <Option>-output=%BuildModeName%\%ProjectName%.lib</Option>
+          <Option>-nologo</Option>
+          <GenerateMode>BuildOptionChanged</GenerateMode>
+        </LibraryGenerateOptions>
+        <LinkOrder>
+          <Path>DefaultBuild\dbsct.obj</Path>
+          <Path>DefaultBuild\intprg.obj</Path>
+          <Path>DefaultBuild\resetprg.obj</Path>
+          <Path>DefaultBuild\RX210_Fwupdate.obj</Path>
+          <Path>DefaultBuild\sbrk.obj</Path>
+          <Path>DefaultBuild\vecttbl.obj</Path>
+          <Path>DefaultBuild\ff.obj</Path>
+          <Path>DefaultBuild\SD_Driver.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>.</IncludePathForC>
+          <IncludePathForC>SD_FatFs</IncludePathForC>
+        </CommonOptions>
+      </BuildMode>
+    </BuildOptions>
+  </Project>
+</MicomToolCommonProjectFile>
